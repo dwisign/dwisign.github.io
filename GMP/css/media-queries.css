@@ -1,0 +1,219 @@
+
+
+/*Ini hanya contoh rules responsive, 
+setiap website memiliki karakteristik masing-masing*/
+
+
+@media only screen and (min-width: 1024px){
+	/*{your css: goes-here;}*/
+}
+
+
+@media only screen and (max-width: 1024px){
+	.wide{
+		width: 100%;
+	}
+
+	.menu .wide, .footer .wide{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
+
+@media only screen and (max-width: 930px){
+	.search{
+		width: 50%;
+	}
+
+	.mail-guest{
+		width: 50%;
+	}
+
+	.logo-mobile{
+		display: block;
+	}
+
+	.logo-mobile img{
+		width: 80px;
+	}
+
+	.logo-desktop{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 850px){
+	.caption h1{
+		font-size: 1.5em;
+	}
+
+	.caption p{
+		font-size: 0.8em;
+	}
+
+	.green-box{
+		min-height: 220px;
+	}
+
+}
+
+@media only screen and (min-width: 768px){
+	.green-box{
+		height: 180px;
+	}	
+}
+
+
+@media only screen and (max-width: 768px){
+	.right-content{
+		padding-left: 15px;
+	}
+	.content .wide{
+		padding: 30px 30px 30px 30px;
+	}
+
+	.search{
+		padding-right: 15px;
+		width: 100%;
+	}
+
+	.search .navbar-form{
+		box-shadow: none;
+	}
+
+	.menu .navbar-collapse{
+		border-top: none;
+	}
+}
+
+
+@media only screen and (max-width: 767px){
+	.mail-guest{
+		width: 100%;
+		background: #00746B;
+	}
+
+	.logo-mobile{
+		margin-top: -15px;
+	}
+
+	.green-box{
+		text-align: center;
+	}
+
+	.news-list h5{
+		margin-top: 15px;
+	}
+
+	.menu{
+		min-height: 60px;
+		padding: 10px 0px 10px 0px;
+	}
+
+	.menu .wide, .footer .wide{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.content-title-inside{
+		background: url("../images/bg-caption.png");
+	}
+
+	.sub-title{
+		background: transparent;
+	}
+
+	.content-title-inside .col-sm-8{
+		text-align: left !important;
+	}
+
+
+	.breadcrumb > li + li:before {
+	  color: #fff;
+	}
+
+	.breadcrumb li a{
+		color: #fff;
+	}
+
+	.breadcrumb .active{
+		color: #fff;
+	}
+
+	.box-media .col-xs-6{
+		margin-bottom: 30px;
+	}
+
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, 
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus{
+		background: #004540;
+	}
+
+	.amcharts-left-div{
+		display: none !important;
+	}
+
+	.amcharts-center-div{
+		padding-left: 0px !important;
+	}
+
+}
+
+
+@media only screen and (max-width: 640px){
+	.footer .col-xs-8, .footer .col-xs-4{
+		width: 100%;
+		float: none;
+		text-align: center;
+	}
+}
+
+
+@media only screen and (max-width: 540px){
+	.caption{
+		padding: 10px;
+		width: 80%;
+		top: 30%;
+	}
+
+	.center{
+		text-align: center;
+		right: 10%;
+		left: 10%;
+	}
+
+	.caption h1{
+		font-size: 1em;
+		margin-top: 0px;
+	}
+
+	.caption p{
+		font-size: 0.7em;
+	}
+
+	.box-media .col-xs-6{
+		width: 100%;
+		float: none;
+	}
+
+	.item-media{
+		height: 300px;
+	}
+}
+
+
+@media only screen and (max-width: 480px){
+	.caption p{
+		display: none;
+	}
+
+	.view-all{
+		display: none;
+	}
+}
+
+
+@media only screen and (max-width: 320px){
+	/*{your css: goes-here;}*/
+}
