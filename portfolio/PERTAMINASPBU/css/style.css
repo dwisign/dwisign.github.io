@@ -1,0 +1,395 @@
+/*TAMBAHAN REGULER CSS YANG BIASA SAYA GUNAKAN UNTUK MELENGKAPI RULES DARI BOOTSTRAP*/
+@import url("//fonts.googleapis.com/css?family=Lobster");
+.align-right{text-align: right;}
+.align-center{text-align: center;}
+.align-left{text-align: left;}
+.img100 img{width: 100%;}
+.img90 img{width: 90%;}
+.img80 img{width: 80%;}
+.img70 img{width: 70%;}
+.img50 img{width: 50%;}
+.big-icon{font-size: 1.5em;}
+p,h1,h2,h3,h4,h5, td, th{color: #666;}
+#slider-1 td, #slider-1 th{color: #fff !important;}
+a:hover{text-decoration: none;}
+.control-label, option, select, legend{color: #666 !important;}
+.progress-bar-success {background-color: #A6CF51;}
+.label-left label{text-align: left !important;}
+/*END REGULER CSS*/
+
+
+
+body{
+	overflow-x: hidden; 
+}
+
+
+.navbar-default {
+  	background-color: #fff;
+  	border: none;
+	position: fixed;
+	width: 100%;
+	border-top: 5px solid #fe0010;
+	top: 0;
+	z-index: 99999;
+	border-bottom: 1px solid #dedede;
+	border-radius: 0px;
+}
+.navbar-default .navbar-brand {
+  color: #ea4e1b;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #fe0010;
+  background-color: none;
+}
+.navbar-default .navbar-text {
+  color: #ea4e1b;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #fe0010;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: #fe0010;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #fe0010;
+}
+.navbar-default .navbar-nav > .disabled > a,
+.navbar-default .navbar-nav > .disabled > a:hover,
+.navbar-default .navbar-nav > .disabled > a:focus {
+  color: #cccccc;
+  background-color: transparent;
+}
+.navbar-default .navbar-toggle {
+  border-color: #97310e;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #fe0010;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #bf3e11;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: #fe0010;
+  color: #ffffff;
+}
+
+.navbar-toggle{
+	background-color: #fe0010;
+}
+
+.form-login{
+	padding: 30px;
+	width: 300px;
+}
+
+.banner-box{
+	background: url("../images/bg-spbu.jpg");
+	background-size: cover;
+	min-height: 700px;
+	border-bottom: 1px solid #dedede;
+}
+
+.banner-box h1{
+	font-family: 'Lobster', cursive;
+	color: #666;
+}
+
+.content{
+	min-height: 800px;
+}
+
+.content-inside{
+	padding-top: 150px;
+	min-height: 800px;
+}
+
+.content li{
+	color: #666;
+}
+
+#home{
+	padding-top: 100px;
+}
+
+#kriteria, #faq, #kontak, #prosedur{
+	min-height: 300px;
+}
+
+#kriteria{
+	/*background: #fe0010;*/
+	background: #666;
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+
+#kriteria h1, #kriteria h2, #kriteria h3,
+#kriteria h4, #kriteria h5, #kriteria h6,
+#kriteria li{
+	color: #fff !important;
+}
+
+#kriteria p{
+	color: #fff;
+}
+
+
+#prosedur{
+	/*background: #fe0010;*/
+	background: #dedede;
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+
+#prosedur h1, #prosedur h2, #prosedur h3,
+#prosedur h4, #prosedur h5, #prosedur h6,
+#prosedur li{
+	color: #666 !important;
+}
+
+#prosedur p{
+	color: #666;
+}
+
+.collapse-desc{
+	padding: 15px;
+}
+
+.desc-kriteria{
+	margin-top: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#faq{
+	min-height: 800px;
+	padding-top: 70px;
+	background: url("../images/bg-grid.jpg");
+}
+
+.panel-heading{
+	background: #e4e4e4 !important;
+}
+
+#kontak{
+	/*background: #e5e5e5;*/
+	background: #084a9c;
+	padding: 30px;
+	/*border-top: 1px solid #c2c2c2;*/
+}
+
+#kontak p, #kontak h2, #kontak h4{
+	color: #fff;
+}
+
+.footer{
+	border-top: 1px solid #dedede;
+	background: #fff;
+	padding-top: 15px;
+	color: #666;
+	border-bottom: 5px solid #084a9c;
+}
+
+.footer a, .footer p{
+	color: #666;
+	font-size: 0.85em;
+}
+
+.map{
+	margin-bottom: 15px;
+}
+
+.map .col-sm-12{
+	padding: 10px;
+	border: 1px solid #dedede;
+}
+
+.count-1 {
+	border: 1px solid #dedede;
+	padding: 15px;
+}
+
+.count-1 h1{
+	font-size: 3.5em;
+	color: #fe0010;
+}
+
+.count-2 {
+	border: 1px solid #dedede;
+	padding: 15px;
+}
+
+.count-2 h1{
+	font-size: 3.5em;
+	color: #fe0010;
+}
+
+.sort{
+	margin-bottom: 20px;
+}
+
+.step {
+	padding-left: 5px;
+}
+
+.step a{
+	border: 1px solid #dedede;
+	border-radius: 5px;
+	color: #666;
+	font-size: 1.5em;
+	padding: 15px 25px;
+}
+
+.step .active{
+	background: #FE0010;
+	border: 1px solid #FE0010;
+	color: #fff;
+}
+
+
+
+.finish{
+	float: right;
+}
+
+.wrap-filter{
+	margin-bottom: 30px;
+	padding-top: 30px;
+}
+
+.filter{
+	min-height: 300px;
+	border: 1px solid #dedede;
+	padding: 30px;
+}
+
+.form-detail-hasil p{
+	margin-top: 10px;
+}
+
+.form-detail-hasil .form-group{
+	margin-bottom: 0px;
+}
+
+
+
+.pager button {
+  display: inline;
+}
+.pager button{
+  display: inline-block;
+  padding: 5px 14px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 15px;
+}
+.pager button:hover,
+.pager button:focus {
+  text-decoration: none;
+  background-color: #eeeeee;
+}
+ 
+.pager .next {
+  float: right;
+}
+.pager .previous{
+  float: left;
+}
+
+.content-area{
+	min-height: 600px;
+}
+
+.preview{
+	padding-left: 30px; padding-right: 30px;
+}
+
+
+.login-box{
+	margin-top: 15%;
+}
+
+.login-box .doyouknow{
+	padding-bottom: 10px;
+}
+
+.logo-kata-login{
+	margin-bottom: 20px;
+}
+
+.form-login-admin{
+	padding: 20px;
+}
+
+.verified{
+	color: #8BAF00;
+}
+
+.unverified{
+	color: #FD000D;
+}
+
+.tab-info li{
+	border-bottom: 1px solid #dedede;
+}
+
+.tab-info-content p{
+	color: #666;
+}
+
+.tab-info-content li{
+	color: #666;
+	margin-bottom: 15px;
+}	
+
+.pager .green > a{
+	background-color: #8dc63f;
+	color: #fff;
+	border: none;
+}
+
+.pager .green > a:hover{
+	background-color: #6cac16;
+}
+
+.pager .status > a:hover{
+	background-color: #fff;
+	cursor: default;
+	color: #DD4814;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
