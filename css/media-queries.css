@@ -1,0 +1,39 @@
+
+
+/*Ini hanya contoh rules responsive, 
+setiap website memiliki karakteristik masing-masing*/
+
+
+@media only screen and (min-width: 1024px){
+	/*{your css: goes-here;}*/
+}
+
+
+@media only screen and (max-width: 1024px){
+	/*{your css: goes-here;}*/
+}
+
+
+@media only screen and (max-width: 991px){
+	/*{your css: goes-here;}*/
+}
+
+
+@media only screen and (max-width: 768px){
+	/*{your css: goes-here;}*/
+}
+
+
+@media only screen and (max-width: 640px){
+	/*{your css: goes-here;}*/
+}
+
+
+@media only screen and (max-width: 480px){
+	/*{your css: goes-here;}*/
+}
+
+
+@media only screen and (max-width: 320px){
+	/*{your css: goes-here;}*/
+}
