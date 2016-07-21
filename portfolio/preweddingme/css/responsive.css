@@ -1,0 +1,17 @@
+@media (max-width: 480px){
+	.menu-text{display: none;}
+}
+
+@media (max-width: 685px){
+	.desc-step{display: none;}
+}
+
+@media (max-width: 768px){
+	.bronze{
+		margin-top: 0px;
+	}
+
+	.mobile-mb{
+		margin-bottom: 15px;
+	}
+}
