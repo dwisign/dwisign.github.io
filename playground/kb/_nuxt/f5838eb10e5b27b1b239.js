@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[60],{314:function(t,n,e){"use strict";e.r(n);var o={layout:"admin-inside"},c=e(33),component=Object(c.a)(o,(function(){var t=this.$createElement,n=this._self._c||t;return n("h4",[n("b-icon",{attrs:{icon:"clipboard-data"}}),this._v(" Report")],1)}),[],!1,null,null,null);n.default=component.exports}}]);

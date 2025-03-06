@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[61],{315:function(n,t,e){"use strict";e.r(t);var c={layout:"admin-inside"},l=e(33),component=Object(l.a)(c,(function(){var n=this.$createElement,t=this._self._c||n;return t("h4",[t("b-icon",{attrs:{icon:"gear"}}),this._v(" Setting")],1)}),[],!1,null,null,null);t.default=component.exports}}]);

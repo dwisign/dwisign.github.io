@@ -1,0 +1,41 @@
+.ipapa-login-wrap{
+	text-align: center;
+}
+.ipapa-login-wrap .ipapa-logo{
+	margin-bottom: 20px;
+}
+.ipapa-login-wrap h3{
+	font-weight: 600;
+	margin-bottom: 8px;
+}
+.ipapa-login-wrap p{
+	margin-bottom: 25px;
+	font-size: 0.7em;
+	line-height: 1.5em;
+}
+.form-login{
+	position: relative;
+}
+.form-login .fa{
+	position: absolute;
+	left: 18px;
+	top: 14px;
+	color: #959595;
+}
+.form-login input{
+	background: transparent;
+	padding-left:40px;
+	height: 45px;
+	font-size: 0.8em;
+}
+.btn-login{
+	margin-top: 30px;
+}
+.btn-login .fa-facebook-square{
+	font-size: 1.3em;
+	color: #1A94C3;
+	margin-right: 5px;
+}
+.btn-outline-grey:hover .fa-facebook-square{
+	color: #fff;
+}

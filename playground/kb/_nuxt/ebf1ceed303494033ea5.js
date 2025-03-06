@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{306:function(n,t,e){"use strict";e.r(t);var o={layout:"admin-inside"},c=e(33),component=Object(c.a)(o,(function(){var n=this.$createElement,t=this._self._c||n;return t("h4",[t("b-icon",{attrs:{icon:"chat-dots"}}),this._v(" Complain")],1)}),[],!1,null,null,null);t.default=component.exports}}]);

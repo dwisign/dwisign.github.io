@@ -1,0 +1,325 @@
+/*!
+ * Ipapa Gift Voucher
+ * Homepage: http://ipapa.co.id/giftvoucher
+ * Copyright 2017 dwisign
+ * Custom bootstrap
+*/
+@font-face {
+  font-family: 'ipapa-icon';
+  src:  url('../fonts/ipapa-icon/ipapa-icon.eot?qysv2b');
+  src:  url('../fonts/ipapa-icon/ipapa-icon.eot?qysv2b#iefix') format('embedded-opentype'),
+    url('../fonts/ipapa-icon/ipapa-icon.ttf?qysv2b') format('truetype'),
+    url('../fonts/ipapa-icon/ipapa-icon.woff?qysv2b') format('woff'),
+    url('../fonts/ipapa-icon/ipapa-icon.svg?qysv2b#ipapa-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="ipapa-icon"], [class*=" ipapa-icon"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ipapa-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ipapa-iconright-arrow-light:before {
+  content: "\e93b";
+}
+html, body{
+  height: 100%;
+  overflow-x: hidden;
+  font-family: 'Avenir Book';
+}
+.topbar{
+  padding: 20px 50px;
+}
+.topbar .logo{
+  width: 45px;
+}
+.banner{
+  background: url(../img/bg-banner.jpg);
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  margin-top: -110px;
+}
+.caption{
+  padding-top: 80px;
+  color: #006687;
+  /*text-shadow: 1px 1px 2px rgba(150, 150, 150, 0.75);*/
+  z-index: 9;
+  position: relative;
+}
+.caption h1{
+  font-size: 3em;
+  font-family: 'Avenir Black';
+}
+.caption h4{
+  font-weight: bold;
+}
+.badge-promo{
+  position: absolute;
+  left: 10%;
+  top: 20%; 
+}
+.footer{
+  background: #0094C1;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding-top: 15px;
+  color: #fff;
+  font-size: 0.8em;
+}
+.btn-back {
+  color: #0094C1;
+  background-color: transparent;
+  border-color: #fff;
+  padding: 10px;
+  font-weight: bold;
+}
+.btn-back:focus,
+.btn-back.focus {
+  color: #0094C1;
+  background-color: transparent;
+  border-color: #fff;
+}
+.btn-back:hover {
+  color:  #0094C1;
+  background-color: #fff;
+  border-color: #fff;
+  opacity: 0.5;
+}
+.btn-back:active,
+.btn-back.active,
+.open > .dropdown-toggle.btn-back {
+  color:  #0094C1;
+  background-color: #fff;
+  border-color: #fff;
+}
+.callToAct-btn{
+  margin-top: 50px;
+}
+.callToAct-btn h5{
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(150, 150, 150, 0.75);
+}
+.btn-cta {
+  color: #F26522;
+  background-color: transparent;
+  border-color: #F26522;
+  padding: 15px 50px;
+  font-weight: bold;
+}
+.btn-cta:focus,
+.btn-cta.focus {
+  color: #F26522;
+  background-color: transparent;
+  border-color: #F26522;
+}
+.btn-cta:hover {
+  color:  #fff;
+  background-color: #F26522;
+  border-color: #F26522;
+  opacity: 0.5;
+}
+.btn-cta:active,
+.btn-cta.active,
+.open > .dropdown-toggle.btn-cta {
+  color:  #fff;
+  background-color: #F26522;
+  border-color: #F26522;
+}
+.coupon-wrap .border{
+  border: 1px solid #dedede;
+  min-height: 300px;
+  margin-top: -80px;
+  background: #fff;
+  padding: 50px 15px;
+  margin-bottom: 30px;
+}
+.tou{
+  background: #0094C1;
+  min-height: 200px;
+  padding: 30px 0px;
+  color: #fff;
+}
+.contact{
+  padding: 50px;
+}
+.contact .logo-footer{
+  width: 250px;
+  margin-bottom: 30px;
+}
+.contact p{
+  color: #666;
+}
+/*SIGN-IN*/
+.modal-title{
+  font-family: 'Avenir Medium';
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #8C8C8C;
+}
+.modal-content{
+  border-radius: 20px;
+  padding-bottom: 50px;
+}
+.signIn .modal-dialog,
+.contact .modal-dialog{
+  padding-top: 8%;
+}
+.signIn input,
+.signIn textarea,
+.contact input,
+.contact textarea{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  box-shadow: none;
+  background: transparent;
+}
+.signIn input:focus,
+.signIn textarea:focus,
+.contact input:focus,
+.contact textarea:focus{
+  box-shadow: none;
+  background: transparent;
+}
+.notMember{
+  padding-left: 10px;
+  color: #BFBFBF;
+  font-family: 'Avenir Light';
+}
+.switch-link br{
+  display: none;
+}
+.btn-subscribe{
+  padding: 5px;
+  color: #fff;
+  font-size: 2.5em;
+  background: transparent;
+}
+.btn-subscribe:hover{
+  color: #fff;
+}
+.btn-subscribe .icon{
+  vertical-align: top;
+  display: inline-block; /*FIX FOR VERTICAL ALIGN SAFARI*/
+  z-index: 9;
+  position: relative;
+}
+.btn-signInUp{
+  color: #bfbfbf !important;
+  background: transparent;
+}
+.btn-signIn-wrap{
+  padding-top: 50px;
+  padding-left: 0px;
+}
+.btn-sign-modal{
+  background: #BFBFBF;
+  color: #fff;
+  font-family: 'Avenir Heavy';
+  padding: 3px 15px;
+  border-radius: 10px;
+}
+.forgotPasswordLink{
+  color: #a8a8a8;
+  margin-left: 10px;
+}
+.fb{
+  width: 20px;
+}
+.code{
+  font-family: 'Avenir Black';
+  position: absolute;
+  margin: 0 auto;
+  top: 30px;
+}
+.coupon-code{
+  margin-top: -100px;
+  margin-bottom: 60px;
+}
+/*BTN SOCIAL*/
+.btn-social{position:relative;padding-left:44px;text-align:left;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.btn-social>:first-child{position:absolute;left:0;top:0;bottom:0;width:40px;line-height:34px;font-size:1.6em;text-align:center;border-right:1px solid rgba(0,0,0,0.2)}
+.btn-social.btn-lg{padding-left:61px}.btn-social.btn-lg>:first-child{line-height:45px;width:45px;font-size:1.8em}
+.btn-social.btn-sm{padding-left:38px}.btn-social.btn-sm>:first-child{line-height:28px;width:28px;font-size:1.4em}
+.btn-social.btn-xs{padding-left:30px}.btn-social.btn-xs>:first-child{line-height:20px;width:20px;font-size:1.2em}
+.btn-social-icon{position:relative;padding-left:44px;text-align:left;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;height:34px;width:34px;padding:0}.btn-social-icon>:first-child{position:absolute;left:0;top:0;bottom:0;width:32px;line-height:34px;font-size:1.6em;text-align:center;border-right:1px solid rgba(0,0,0,0.2)}
+.btn-social-icon.btn-lg{padding-left:61px}.btn-social-icon.btn-lg>:first-child{line-height:45px;width:45px;font-size:1.8em}
+.btn-social-icon.btn-sm{padding-left:38px}.btn-social-icon.btn-sm>:first-child{line-height:28px;width:28px;font-size:1.4em}
+.btn-social-icon.btn-xs{padding-left:30px}.btn-social-icon.btn-xs>:first-child{line-height:20px;width:20px;font-size:1.2em}
+.btn-social-icon>:first-child{border:none;text-align:center;width:100% !important}
+.btn-social-icon.btn-lg{height:45px;width:45px;padding-left:0;padding-right:0}
+.btn-social-icon.btn-sm{height:30px;width:30px;padding-left:0;padding-right:0}
+.btn-social-icon.btn-xs{height:22px;width:22px;padding-left:0;padding-right:0}
+.btn-facebook{color:#fff;background-color:#3b5998;border-color:rgba(0,0,0,0.2)}.btn-facebook:focus,.btn-facebook.focus{color:#fff;background-color:#2d4373;border-color:rgba(0,0,0,0.2)}
+.btn-facebook:hover{color:#fff;background-color:#2d4373;border-color:rgba(0,0,0,0.2)}
+.btn-facebook:active,.btn-facebook.active,.open>.dropdown-toggle.btn-facebook{color:#fff;background-color:#2d4373;border-color:rgba(0,0,0,0.2)}.btn-facebook:active:hover,.btn-facebook.active:hover,.open>.dropdown-toggle.btn-facebook:hover,.btn-facebook:active:focus,.btn-facebook.active:focus,.open>.dropdown-toggle.btn-facebook:focus,.btn-facebook:active.focus,.btn-facebook.active.focus,.open>.dropdown-toggle.btn-facebook.focus{color:#fff;background-color:#23345a;border-color:rgba(0,0,0,0.2)}
+.btn-facebook:active,.btn-facebook.active,.open>.dropdown-toggle.btn-facebook{background-image:none}
+.btn-facebook.disabled:hover,.btn-facebook[disabled]:hover,fieldset[disabled] .btn-facebook:hover,.btn-facebook.disabled:focus,.btn-facebook[disabled]:focus,fieldset[disabled] .btn-facebook:focus,.btn-facebook.disabled.focus,.btn-facebook[disabled].focus,fieldset[disabled] .btn-facebook.focus{background-color:#3b5998;border-color:rgba(0,0,0,0.2)}
+.btn-facebook .badge{color:#3b5998;background-color:#fff}
+
+@media screen and (max-width: 1200px) {
+  .badge-promo img{
+    width: 200px;
+  }
+}
+@media screen and (max-width: 768px){
+  .caption{
+    padding-top: 5%;
+  }
+  .badge-promo{
+    text-align: center;
+    position: relative;
+    left: auto;
+    top: auto;
+  }
+  html, body{
+    height: auto;
+  }
+}
+@media screen and (max-width: 540px){
+  .caption{
+    font-size: 80%;
+  }
+  .badge-promo img{
+    width: 150px;
+  }
+  .btn-cta{
+    padding: 15px 20px;
+  }
+  .coupon-wrap .border{
+    margin-top: 30px;
+  }
+  .contact .logo-footer{
+    width: 180px;
+  }
+}
+@media screen and (max-width: 480px){
+  .topbar{
+    padding: 15px;
+  }
+  .caption{
+    font-size: 60%;
+  }
+  .image-coupon img{
+    width: 250px;
+  }
+  .coupon-code{
+    margin-top: -80px;
+  }
+  .topbar .textBtn{
+    display: none;
+  }
+}

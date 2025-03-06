@@ -1,0 +1,299 @@
+#navbarBlog .nav-main .kategori a:hover,
+#navbarBlog .nav-main .kategori a:visited{
+	background: #006F91;
+}
+#navbarBlog .nav-secondary li{
+	list-style: none;
+}
+#navbarBlog .nav-secondary input{
+	border: none;
+	-webkit-box-shadow: none;
+  	box-shadow: none;
+  	-webkit-transition: none;
+  	-o-transition: none;
+  	transition: none;
+  	margin-top: -8px;
+  	font-size: 1.2em;
+  	font-weight: 400;
+  	opacity: 0.5;
+  	background: transparent;
+  	width: 100%;
+}	
+#navbarBlog .nav-main li a{
+	padding: 25px 0px;
+	height: 65px;
+	color: #959595;
+}
+#navbarBlog .search-blog{
+	list-style: none;
+	margin-top: -25px;
+}
+#navbarBlog .search-blog li{
+	margin-right: 0px;
+}
+#navbarBlog .search-blog .fa{
+	opacity: 0.5;
+}
+#navbarBlog .nav-main .kategori{
+	width: 180px; 
+	background: #1A94C3;
+	vertical-align: middle;
+	display: table;
+}
+#navbarBlog .nav-main .kategori a{
+	color: #fff;
+	padding: 20px 0px;
+}
+.text-kategori{
+	margin-right: 10px;
+}
+.back-to-ipapa a{
+	font-weight: 600;
+	font-size: 0.8em;
+}
+.more-blog{
+	position: absolute;
+	right: 15px;
+	top: 10px;
+}
+.more-blog a,
+.more-blog-cat a{
+	color: #959595;
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+.more-blog-cat{
+	position: absolute;
+	right: 0;
+	top: 10px;
+}
+.blog-left{
+	width: 65%;
+}
+.blog-right{
+	width: 35%;
+}
+.banner-blog-detail{
+	position: relative;
+}
+#homeBlogSlide .img-item-blog-slider,
+.banner-blog-detail .img-item-blog-slider{
+	height: 400px;
+	background-position: center center !important;
+	background-size: 115% !important;
+	background-repeat: no-repeat !important;
+	background-color: #000 !important;
+}
+#homeBlogSlide .bg-lens-black,
+.banner-blog-detail .bg-lens-black{
+	width: 100%; 
+	height: 100%;
+	position: absolute;
+	z-index: 9; 
+	background: -moz-linear-gradient(top, rgba(234,234,234,0.3) 10%, rgba(130,130,130,0.3) 50%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(234,234,234,0.3) 10%,rgba(130,130,130,0.3) 50%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(234,234,234,0.3) 10%,rgba(130,130,130,0.3) 50%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6eaeaea', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+#homeBlogSlide .caption-blog-slider,
+.banner-blog-detail .caption-blog-slider{
+	position: absolute;
+	bottom: 0;
+	z-index: 99;
+	color: #fff;
+	font-weight: 600;
+	padding: 30px 80px 30px 30px;
+	font-size: 1.6em;
+}
+#homeBlogSlide .view-count,
+.banner-blog-detail .view-count{
+	position: absolute;
+	bottom: 15px;
+	right: 30px;
+	z-index: 99;
+	color: #fff;
+	font-weight: 600;
+	font-size: 1.2em;
+}
+.blog-home{
+	margin-top: 30px;
+}
+#homeBlogSlide a:hover{
+	text-decoration: none; 
+	opacity: 1; 
+	transition: 0s;
+}
+#homeBlogSlide a{
+	transition: 0s;
+}
+.blog-cat-item{
+	margin-bottom: 80px;
+	position: relative;
+}
+.blog-tab-content{
+	padding-top: 30px;
+}
+.blog-tab-content .itemBlogHome{
+	margin-bottom: 8px;
+}
+.blog-tab-content .itemBlogHome a{
+	color: #959595;
+	font-weight: 300;
+}
+.blog-tab-content .itemBlogHome .title-itemBlogHome{
+	height: 40px;
+	overflow-y: hidden;
+	line-height: 1.5em;
+	font-size: 0.95em;
+}
+.blog-tab-content .blogDateHome{
+	font-size: 0.6em;
+}
+.blog-right .officeTabFilter .tab-title{ 
+	margin-bottom: 0px; 
+}
+.blog-cat-item .date-item-blog{
+	font-size: 0.6em;
+}
+.blog-cat-item .title-item-blog{
+	line-height: 1.5em;
+	margin-bottom: 25px;
+	height: 60px;
+	overflow-y: hidden;
+}
+.blog-cat-item .title-item-blog a{
+	color: #959595;
+}
+.blog-cat-item .more-view{
+	border-bottom: 1px solid #dedede;
+}
+.blog-cat-item .more-view .fa-eye{
+	color: #1A94C3;
+	font-size: 1.3em;
+}
+.img-item-blog{
+	height: 130px;
+	background-color: #000 !important;
+	background-size: 125% !important;
+	background-position: center center !important;
+	background-repeat: no-repeat !important;
+	margin-bottom: 10px;
+}
+.white-box-sidebar{
+	border: 1px solid #dedede;
+	min-height: 300px;
+	margin-bottom: 30px;
+	padding: 30px 15px;
+	position: relative;
+}
+.white-box-sidebar .title-4{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.white-box-sidebar .more-blog{
+	top: 30px;
+	right: 15px; 
+}
+.white-box-sidebar .list-white-box{
+	border-bottom: 2px dotted #dedede;
+	padding: 15px 0px;
+}
+.white-box-sidebar .list-white-box a{
+	color: #959595;
+	font-weight: 300;
+	font-size: 0.9em;
+}
+.sidebar-detail{
+	padding-top: 0px;
+}
+.date-blog-detail{
+	font-weight: 800;
+	color: #959595;
+	margin-top: 20px;
+}
+.blog-text-content{
+	margin-top: 30px;
+	margin-bottom: 80px;
+}
+.blog-text-content p,
+.blog-text-content li{
+	color: #959595;
+}
+.label-blog-detail{
+	background: #1A94C3;
+	color: #fff;
+	border-radius: 50px;
+	width: 130px;
+	font-size: 0.8em;
+	padding: 2px 10px;
+	text-align: center;
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	z-index: 99;
+}
+.list-arsip p{
+	margin-bottom: 0px;
+}
+.blog-cat-item-inside{
+	margin-bottom: 30px;
+}
+#homeBlogSlide .owl-dots .active span{
+	background-color: #1F95C3;
+}
+/*MEDIA QUERIES*/
+@media (max-width: 1024px) {
+	#homeBlogSlide .img-item-blog-slider,
+	.banner-blog-detail .img-item-blog-slider{
+		height: 300px;
+	}
+	.img-item-blog{
+		height: 90px;
+	}
+}
+@media (max-width: 991px) {
+	.blog-left,
+	.blog-right{ 
+		width: 100% 
+	}
+	#homeBlogSlide .img-item-blog-slider,
+	.banner-blog-detail .img-item-blog-slider{
+		height: 400px;
+	}
+	.img-item-blog{
+		height: 150px;
+	}
+}
+@media (max-width: 767px) {
+	#homeBlogSlide .img-item-blog-slider,
+	.banner-blog-detail .img-item-blog-slider{
+		height: 300px;
+	}
+	.more-blog-cat{
+		top: 0;
+	}
+	.img-item-blog{
+		height: 300px;
+	}
+}
+@media (max-width: 480px) {
+	#homeBlogSlide .img-item-blog-slider,
+	.banner-blog-detail .img-item-blog-slider{
+		height: 200px;
+	}
+	#homeBlogSlide .caption-blog-slider,
+	.banner-blog-detail .caption-blog-slider{
+		font-size: 0.9em;
+		padding-left: 15px;
+		padding-bottom: 15px;
+	}
+	#homeBlogSlide .view-count,
+	.banner-blog-detail .view-count{
+		font-size: 0.9em;
+		right: 15px;
+	}
+	.img-item-blog{
+		height: 150px;
+	}
+}
+

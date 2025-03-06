@@ -1,0 +1,7 @@
+.panel-faq .panel{
+	box-shadow: none;
+	border-bottom: 3px dotted #dedede;
+}
+.panel-faq-head{
+	padding: 15px 0px 20px;
+}

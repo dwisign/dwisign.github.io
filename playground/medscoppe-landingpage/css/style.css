@@ -1,0 +1,253 @@
+a:hover,
+button:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+  color: #666;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.no-gutters > .col,
+.no-gutters > [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.active {
+  font-weight: bold;
+  font-size: 1em;
+  color: #95c11f;
+}
+
+.active a {
+  color: #95c11f !important;
+}
+
+.blue-brand {
+  background: #3458a4;
+}
+
+.green-light-brand {
+  background: #95c11f;
+}
+
+.green-light-brand-text {
+  color: #95c11f;
+}
+
+.orange-brand-text {
+  color: #ff6600;
+}
+
+.blue-brand-dark {
+  background: #0e4099;
+}
+
+.btn {
+  border-radius: 10px;
+  font-size: 0.8em;
+  font-weight: bold;
+  padding: .5rem 2rem;
+}
+
+.btn-green-light-brand {
+  color: #fff;
+  background-color: #95c11f;
+  border-color: #95c11f;
+}
+
+.btn-green-light-brand:hover {
+  color: #fff;
+  background-color: #95c11f;
+  border-color: #95c11f;
+}
+
+.btn-green-light-brand:focus, .btn-green-light-brand.focus {
+  color: #fff;
+  background-color: #95c11f;
+  border-color: #95c11f;
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.btn-green-light-brand.disabled, .btn-green-light-brand:disabled {
+  color: #fff;
+  background-color: #95c11f;
+  border-color: #95c11f;
+}
+
+.form-control {
+  height: calc(1.7em + .75rem + 5px);
+}
+
+.section-title {
+  color: #3458a4;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.top-menu {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999999;
+}
+.top-menu .brand {
+  padding: 20px 0px;
+}
+.top-menu .brand img {
+  width: 180px;
+}
+.top-menu .brand .white {
+  display: none;
+}
+.top-menu .brand span {
+  display: none;
+}
+.top-menu .list-menu {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.top-menu .list-menu li {
+  font-size: 0.8em;
+  padding: 0px 20px;
+  list-style: none;
+}
+.top-menu .list-menu li a {
+  color: #fff;
+  font-weight: 600;
+}
+
+.top-menu.scrolled {
+  background-color: white transparent;
+  background-color: rgba(255, 255, 255, 0.8);
+  transition: background-color 200ms linear;
+}
+.top-menu.scrolled .brand span {
+  display: block;
+  color: #3458a4;
+  font-weight: 800;
+}
+.top-menu.scrolled .brand .color {
+  display: none;
+}
+.top-menu.scrolled .list-menu li a {
+  color: #3458a4;
+}
+
+.section-hero {
+  height: 768px;
+}
+.section-hero .image-1 {
+  position: absolute;
+  z-index: -1;
+  margin-top: -360px;
+  margin-left: 100px;
+}
+.section-hero .image-1 img {
+  width: 1600px;
+}
+.section-hero .image-2 {
+  padding-top: 280px;
+}
+.section-hero .image-2 img {
+  width: 650px;
+}
+.section-hero .image-2 .macbook {
+  position: relative;
+}
+.section-hero .image-2 .macbook #capture {
+  position: absolute;
+  top: 33px;
+  left: 114px;
+  width: 420px;
+}
+.section-hero .right-content {
+  padding-top: 200px;
+}
+.section-hero .right-content h3 {
+  color: #fff;
+  font-weight: 200;
+  font-size: 1.6em;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+.section-hero .right-content h6 {
+  color: #fff;
+  line-height: 25px;
+  font-size: 0.9em;
+  font-weight: 200;
+}
+
+.section-about .left-content .image-1 {
+  margin-left: -380px;
+}
+.section-about .left-content .image-1 img {
+  opacity: 0.5;
+}
+.section-about .right-content {
+  padding-top: 300px;
+  padding-right: 30px;
+}
+
+.section-key-feature {
+  background: url(../images/rectangle-1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 80px 0px;
+  margin-top: -250px;
+}
+.section-key-feature .section-title {
+  margin-bottom: 100px;
+}
+.section-key-feature .image-1 img {
+  width: 100%;
+}
+
+.section-package {
+  text-align: center;
+  padding: 80px 0px;
+}
+
+.section-get-in-touch .trapezoid {
+  height: 250px;
+  width: 100%;
+  background: url(../images/trapezoid.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 100px;
+}
+.section-get-in-touch .trapezoid .section-title {
+  margin-bottom: 5px;
+}
+
+.section-footer {
+  background: #020024;
+  background: linear-gradient(260deg, #020024 0%, #8dd400 0%, #052ea0 100%);
+  margin-top: -100px;
+  z-index: -1;
+  position: relative;
+}
+.section-footer .copyright {
+  padding-top: 200px;
+  color: #fff;
+}
+.section-footer .image-1 {
+  text-align: right;
+}
+.section-footer .image-1 img {
+  width: 100px;
+}

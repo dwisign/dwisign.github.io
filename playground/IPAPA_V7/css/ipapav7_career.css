@@ -1,0 +1,18 @@
+.item-career{
+	border-bottom: 2px dotted #dedede;
+	margin-bottom: 15px;
+}
+.item-career h4{
+	margin-bottom: 10px;
+	margin-top: 0px;
+}
+.item-career p{
+	font-weight: 600;
+	font-size: 0.8em;
+}
+.item-career .fa-map-marker{
+	color: #1A94C3;
+	font-size: 1.5em;
+}
+
+/*MEDIA QUERIES*/

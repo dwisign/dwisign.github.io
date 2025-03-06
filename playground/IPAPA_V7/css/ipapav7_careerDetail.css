@@ -1,0 +1,27 @@
+.item-career-inside h4{
+	margin-bottom: 10px;
+	margin-top: 0px;
+	font-weight: 800;
+}
+.item-career-inside .date{
+	font-weight: 600;
+	font-size: 0.8em;
+	margin-bottom: 30px;
+}
+.career-text, .career-text li{
+	font-weight: 200;
+}
+.item-career-inside .fa-map-marker{
+	color: #1A94C3;
+	font-size: 1.5em;
+}
+.responsibility, .requirements, .addtitional{
+	margin-bottom: 30px;
+}
+#kirimLamaranForm{
+	border: 1px solid #dedede;
+	margin-top: 50px;
+	padding: 35px;
+}
+
+/*MEDIA QUERIES*/

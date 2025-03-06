@@ -1,0 +1,138 @@
+.tab-service{
+	margin-bottom: 80px;
+}
+.item-tab-service{
+	text-align: center;
+	border: 1px solid #1A94C3;
+	padding: 10px;
+	border-right: none;
+	border-top: none;
+	font-weight: 200;
+	font-size: 1.2em;
+	min-height: 180px;
+}
+.item-tab-service:hover{
+	background: #1A94C3;
+	color: #fff;
+}
+.item-tab-service:hover p{
+	color: #fff;
+}
+.item-tab-service .icon{
+	font-size: 6em;
+	margin-bottom: 0px;	
+}
+.item-tab-service p{
+	font-size: 1em;
+	color: #1A94C3;
+	margin-top: 0px;	
+}
+.with-top{
+	border-top: 1px solid #1A94C3;
+}
+.with-right{
+	border-right: 1px solid #1A94C3;
+}
+.tab-content-service{
+	background: #1A94C3;
+	text-align: center;
+	padding: 50px;
+	border-radius: 200px;
+	height: 400px;
+	width: 400px;
+	color: #fff;
+}
+.tab-content-service .icon{
+	font-size: 5em;
+}
+.tab-content-service h4{
+	color: #fff;
+	font-size: 2em;
+	margin-bottom: 0px;
+}
+.tab-content-service p{
+	font-weight: 200;
+	color: #fff;
+	line-height: 1.5em;
+}
+#projectSlide .owl-prev,
+#projectSlide .owl-next{
+	height: 40px; 
+	width: 20px; 
+	padding-top: 9px; 
+	background-color: rgba(0, 177, 240, 0.5);
+	background: rgba(0, 177, 240, 0.5);
+	color: #fff;
+	top: 40%;
+}
+#projectSlide .owl-prev{
+	border-bottom-right-radius: 40px; 
+	border-top-right-radius: 40px; 
+	position: absolute; 
+	left: -5px; 
+}
+#projectSlide .owl-next{
+	border-bottom-left-radius: 40px; 
+	border-top-left-radius: 40px; 
+	position: absolute; 
+	right: -5px; 
+}
+#projectSlideHash{
+	margin-top: 50px;
+}
+#projectSlide .item h3{
+	font-size: 1.5em;
+	color: #1A94C3;
+}
+#projectSlide .item h4{
+	font-size: 1em;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+#projectSlide .item p{
+	font-size: 0.75em;
+	line-height: 1.8em;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 1024px) {
+	.item-tab-service .icon{
+		font-size: 4em;	
+	}
+	.item-tab-service{
+		font-size: 1em;
+		min-height: 150px;
+		padding: 10px;
+	}
+	.tab-content-service{
+		height: 310px;
+		width: 310px;
+		font-size: 85%;
+		padding: 20px 30px;
+	}
+}
+@media (max-width: 767px) {
+	.tab-content-service{
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}
+	.tab-service{
+		text-align: center;
+	}
+}
+@media (max-width: 640px) {
+#projectSlide .owl-prev,
+#projectSlide .owl-next{
+		display: none;
+	}
+}
+@media (max-width: 480px) {	
+	.item-tab-service p{
+		font-size: 0.6em;
+		line-height: 0px;	
+	}
+	.item-tab-service{
+		min-height: 100px;
+		padding: 10px;
+	}
+}

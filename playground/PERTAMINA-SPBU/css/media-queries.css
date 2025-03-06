@@ -1,0 +1,52 @@
+@media only screen and (min-width: 1367px){
+	.container{width: 1365px;}
+}
+
+
+@media only screen and (max-width: 1365px){
+	.container{width: 75%;}
+}
+
+@media only screen and (max-width: 1024px){
+	.container {width: 98%;}
+}
+
+@media only screen and (min-width: 991px){
+	#slider-1 {padding-left: 70px; padding-right: 70px;}
+}
+
+@media only screen and (max-width: 920px){
+	.step {display: none;}
+}
+
+@media only screen and (max-width: 767px){
+	.navbar-default .navbar-nav > li > a {
+	  padding-top: 10px;
+	  padding-bottom: 10px;
+	}
+
+	.navbar-brand img{
+		width: 50%;
+	}
+}
+
+
+@media only screen and (max-width: 768px){
+	/*{your css: goes-here;}*/
+}
+
+
+@media only screen and (max-width: 640px){
+	#slider-1 .flex-direction-nav {display: none;}
+}
+
+
+@media only screen and (max-width: 480px){
+	.banner-box img{width: 95%;}
+	.banner-box h1{font-size: 1.5em;}
+}
+
+
+@media only screen and (max-width: 320px){
+	/*{your css: goes-here;}*/
+}

@@ -1,0 +1,237 @@
+.link-search{
+	display: none;
+}
+.office-search-inside{
+	padding-top: 150px;
+	margin-bottom: 50px;
+}
+.img-building{
+	background-position: center center !important; 
+	background-size: 140% !important; 
+	background-repeat: no-repeat !important; 
+	width: 100%; 
+	height: 220px; 
+	background-color: #000 !important; 
+	-webkit-transition:0.3s;
+}
+.with-zoom{
+	background-size: 180% !important;
+}
+/*#gedungkantor a:hover .img-premium-building{
+	background-size: 160% !important; 
+	-webkit-transition:0.3s;
+}
+#gedungkantor a:hover .with-zoom{
+	background-size: 200% !important; 
+	-webkit-transition:0.3s;
+}*/
+.premiumBuilding{
+	border-bottom: 1px solid #dedede;
+	padding-bottom: 50px;
+	margin-bottom: 30px;
+}
+.premiumBuilding p{
+	font-weight: 300;
+	font-size: 0.87em;
+	line-height: 1.5em;
+	letter-spacing: 0.8px;
+	height: 40px;
+	overflow-y: hidden;	
+}
+.premiumBuilding h4{
+	color: #1A94C3;
+	font-weight: 500;
+	font-size: 1.2em;
+}
+.price-space{
+	line-height: 1.8em;
+}
+.price{
+	color: #F15A29;
+	font-weight: 600;
+}
+#premiumBuildingSlide .owl-nav{ 
+	top: -60px;
+	right: -5px;
+	position: absolute;
+}
+#premiumBuildingSlide .owl-prev,
+#premiumBuildingSlide .owl-next{ 
+	background: transparent;
+	color: #959595;
+	font-size: 1.5em;
+}
+.office-list .item{
+	margin-bottom: 50px;
+}
+.office-list .title-2,
+.premiumBuilding .title-2,
+.office-list p,
+.premiumBuilding p{
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.switch-button{
+	position: absolute;
+	right: 15px;
+	top: 0px;
+}
+.switch-button li{
+	display: inline;
+	margin-left: 15px;
+	color: #959595;
+}
+.switch-button a{
+	color: #959595;
+	font-size: 1.5em;
+}
+.switch-button .form-sort{
+	padding: 5px;
+	border-radius: 50px;
+	border: 1px solid #dedede;
+}
+.switch-button .iconSwitch .fa{
+	padding-top: 5px;
+}
+.office-list .col-sm-12 .item{
+	margin-bottom: 30px;
+	border-bottom: 1px solid #dedede;
+	height: 150px;
+}
+.office-list .col-sm-12 .img-building{
+	width: 22%;
+	height: 150px;
+	float: left;
+	margin-right: 30px;
+}
+.office-list .col-sm-12 .buildingName{
+	width: 50%;
+	float: left;
+	padding-right: 15px;
+}
+.office-list .col-sm-12 .buildingName br{
+	display: none;
+}
+.office-list .col-sm-12 hr{
+	display: none;
+}
+.office-list .col-sm-12 .title-2{
+	margin-top: 0px;
+}
+.office-list .col-sm-12 .priceDetail{
+	float: left;
+	width: 28%;
+	border-left: 1px solid #dedede;
+	padding-left: 15px;
+	height: 150px;
+}
+.office-list .priceDetail p{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.office-list .priceDetail .mssg,
+.office-list .priceDetail .compare{
+	margin-right: 15px;
+	font-size: 0.8em;
+}
+.office-list .priceDetail span a{
+	color: #959595;
+}
+.office-list .priceDetail span .fa{
+	color: #959595;
+	border: 1px solid #dedede;
+	padding: 4px;
+	border-radius: 20px;
+}
+.office-list .col-sm-12 .price-space{
+	margin-top: 0px;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 1024px){
+	.office-list .col-sm-12 .buildingName{
+		width: 45%;
+	}
+	.office-list .col-sm-12 .priceDetail{
+		width: 33%;
+	}
+	.switch-button{
+		top: 45px;
+	}
+	.tab-title{
+		margin-bottom: 60px;
+	}
+}
+@media (max-width: 768px) {
+	.office-list .col-sm-12 .buildingName{
+		width: 38%;
+	}
+	.office-list .col-sm-12 .priceDetail{
+		width: 40%;
+	}
+	.office-list .col-sm-12 .img-building{
+		height: 125px;
+	}
+}
+@media (max-width: 767px) {
+	.img-building{
+		height: 450px;
+	}
+}
+@media (max-width: 640px) {
+	.img-building{
+		height: 300px;
+	}
+	.switch-button .iconSwitch{
+		display: none;
+	}
+	.office-list .col-sm-12 .item{
+		margin-bottom: 30px;
+		border-bottom: none;
+		height: auto;
+	}
+	.office-list .col-sm-12 .img-building{
+		width: auto;
+		height: 300px;
+		float: none;
+		margin-right: 0px;
+	}
+	.office-list .col-sm-12 .buildingName{
+		width: auto;
+		float: none;
+		padding-right: 0px;
+	}
+	.office-list .col-sm-12 .buildingName img{
+		margin-top: 21px;
+	}
+	.office-list .col-sm-12 hr{
+		display: block;
+	}
+	.office-list .col-sm-12 .title-2{
+		margin-top: 21px;
+	}
+	.office-list .col-sm-12 .priceDetail{
+		float: none;
+		width: auto;
+		border-left: none;
+		padding-left: 0px;
+		height: auto;
+	}
+	.office-list .col-sm-12 .price-space{
+		margin-top: inherit;
+	}
+}
+@media (max-width: 480px) {
+	.img-building{
+		height: 250px;
+	}
+	.switch-button{
+		left: 0;
+		width: 100%;
+		margin-left: -5px;
+	}
+	.switch-button li{
+		margin-left: 0px;
+	}
+}

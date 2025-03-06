@@ -1,0 +1,311 @@
+@font-face {
+  font-family: 'ipapa-icon';
+  src:  url('../fonts/ipapa-icon/ipapa-icon.eot?qysv2b');
+  src:  url('../fonts/ipapa-icon/ipapa-icon.eot?qysv2b#iefix') format('embedded-opentype'),
+    url('../fonts/ipapa-icon/ipapa-icon.ttf?qysv2b') format('truetype'),
+    url('../fonts/ipapa-icon/ipapa-icon.woff?qysv2b') format('woff'),
+    url('../fonts/ipapa-icon/ipapa-icon.svg?qysv2b#ipapa-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="ipapa-icon"], [class*=" ipapa-icon"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ipapa-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ipapa-iconmoney:before {
+  content: "\e93e";
+}
+.ipapa-iconcoin:before {
+  content: "\e933";
+}
+.ipapa-iconluv:before {
+  content: "\e937";
+}
+.ipapa-iconabout1 .path1:before {
+  content: "\e900";
+  color: rgb(2, 148, 194);
+}
+.ipapa-iconabout1 .path2:before {
+  content: "\e901";
+  margin-left: -0.9638671875em;
+  color: rgb(255, 255, 255);
+  opacity: 0.5;
+}
+.ipapa-iconabout1 .path3:before {
+  content: "\e902";
+  margin-left: -0.9638671875em;
+  color: rgb(137, 212, 230);
+}
+.ipapa-iconabout1 .path4:before {
+  content: "\e903";
+  margin-left: -0.9638671875em;
+  color: rgb(255, 255, 255);
+}
+.ipapa-iconabout1 .path5:before {
+  content: "\e904";
+  margin-left: -0.9638671875em;
+  color: rgb(255, 255, 255);
+}
+.ipapa-iconabout1 .path6:before {
+  content: "\e905";
+  margin-left: -0.9638671875em;
+  color: rgb(255, 255, 255);
+}
+.ipapa-iconabout2 .path1:before {
+  content: "\e906";
+  color: rgb(2, 148, 194);
+}
+.ipapa-iconabout2 .path2:before {
+  content: "\e907";
+  margin-left: -0.9638671875em;
+  color: rgb(255, 255, 255);
+  opacity: 0.5;
+}
+.ipapa-iconabout2 .path3:before {
+  content: "\e908";
+  margin-left: -0.9638671875em;
+  color: rgb(137, 212, 230);
+}
+.ipapa-iconabout2 .path4:before {
+  content: "\e909";
+  margin-left: -0.9638671875em;
+  color: rgb(255, 255, 255);
+}
+.ipapa-iconabout2 .path5:before {
+  content: "\e90a";
+  margin-left: -0.9638671875em;
+  color: rgb(255, 255, 255);
+}
+.ipapa-iconabout2 .path6:before {
+  content: "\e90b";
+  margin-left: -0.9638671875em;
+  color: rgb(255, 255, 255);
+}
+.ipapa-iconabout3 .path1:before {
+  content: "\e90c";
+  color: rgb(2, 148, 194);
+}
+.ipapa-iconabout3 .path2:before {
+  content: "\e90d";
+  margin-left: -0.9638671875em;
+  color: rgb(255, 255, 255);
+  opacity: 0.5;
+}
+.ipapa-iconabout3 .path3:before {
+  content: "\e90e";
+  margin-left: -0.9638671875em;
+  color: rgb(137, 212, 230);
+}
+.ipapa-iconabout3 .path4:before {
+  content: "\e90f";
+  margin-left: -0.9638671875em;
+  color: rgb(255, 255, 255);
+}
+.ipapa-iconabout4 .path1:before {
+  content: "\e910";
+  color: rgb(255, 255, 255);
+  opacity: 0.25;
+}
+.ipapa-iconabout4 .path2:before {
+  content: "\e911";
+  margin-left: -0.9638671875em;
+  color: rgb(255, 255, 255);
+  opacity: 0.25;
+}
+.ipapa-iconabout4 .path3:before {
+  content: "\e912";
+  margin-left: -0.9638671875em;
+  color: rgb(255, 255, 255);
+  opacity: 0.5;
+}
+.ipapa-iconabout4 .path4:before {
+  content: "\e913";
+  margin-left: -0.9638671875em;
+  color: rgb(137, 212, 230);
+}
+.ipapa-iconabout4 .path5:before {
+  content: "\e914";
+  margin-left: -0.9638671875em;
+  color: rgb(255, 255, 255);
+}
+.ipapa-iconabout4 .path6:before {
+  content: "\e915";
+  margin-left: -0.9638671875em;
+  color: rgb(255, 255, 255);
+}
+.ipapa-iconabout4 .path7:before {
+  content: "\e916";
+  margin-left: -0.9638671875em;
+  color: rgb(255, 255, 255);
+}
+.ipapa-iconabout4 .path8:before {
+  content: "\e917";
+  margin-left: -0.9638671875em;
+  color: rgb(255, 255, 255);
+}
+.ipapa-iconabout5 .path1:before {
+  content: "\e918";
+  color: rgb(255, 255, 255);
+  opacity: 0.25;
+}
+.ipapa-iconabout5 .path2:before {
+  content: "\e919";
+  margin-left: -0.9638671875em;
+  color: rgb(255, 255, 255);
+  opacity: 0.25;
+}
+.ipapa-iconabout5 .path3:before {
+  content: "\e91a";
+  margin-left: -0.9638671875em;
+  color: rgb(255, 255, 255);
+  opacity: 0.5;
+}
+.ipapa-iconabout5 .path4:before {
+  content: "\e91b";
+  margin-left: -0.9638671875em;
+  color: rgb(137, 212, 230);
+}
+.ipapa-iconabout5 .path5:before {
+  content: "\e91c";
+  margin-left: -0.9638671875em;
+  color: rgb(255, 255, 255);
+}
+.ipapa-iconabout5 .path6:before {
+  content: "\e91d";
+  margin-left: -0.9638671875em;
+  color: rgb(255, 255, 255);
+}
+.ipapa-iconabout5 .path7:before {
+  content: "\e91e";
+  margin-left: -0.9638671875em;
+  color: rgb(255, 255, 255);
+}
+.ipapa-iconabout5 .path8:before {
+  content: "\e91f";
+  margin-left: -0.9638671875em;
+  color: rgb(255, 255, 255);
+}
+.ipapa-iconabout5 .path9:before {
+  content: "\e920";
+  margin-left: -0.9638671875em;
+  color: rgb(255, 255, 255);
+}
+.ipapa-iconabout5 .path10:before {
+  content: "\e921";
+  margin-left: -0.9638671875em;
+  color: rgb(255, 255, 255);
+}
+.ipapa-iconabout5 .path11:before {
+  content: "\e922";
+  margin-left: -0.9638671875em;
+  color: rgb(255, 255, 255);
+}
+.ipapa-iconabout6 .path1:before {
+  content: "\e923";
+  color: rgb(255, 255, 255);
+  opacity: 0.25;
+}
+.ipapa-iconabout6 .path2:before {
+  content: "\e924";
+  margin-left: -0.9638671875em;
+  color: rgb(255, 255, 255);
+  opacity: 0.25;
+}
+.ipapa-iconabout6 .path3:before {
+  content: "\e925";
+  margin-left: -0.9638671875em;
+  color: rgb(255, 255, 255);
+  opacity: 0.5;
+}
+.ipapa-iconabout6 .path4:before {
+  content: "\e926";
+  margin-left: -0.9638671875em;
+  color: rgb(137, 212, 230);
+}
+.ipapa-iconabout6 .path5:before {
+  content: "\e927";
+  margin-left: -0.9638671875em;
+  color: rgb(255, 255, 255);
+}
+.ipapa-iconabout6 .path6:before {
+  content: "\e928";
+  margin-left: -0.9638671875em;
+  color: rgb(255, 255, 255);
+}
+.ipapa-iconabout6 .path7:before {
+  content: "\e929";
+  margin-left: -0.9638671875em;
+  color: rgb(255, 255, 255);
+}
+.ipapa-iconabout6 .path8:before {
+  content: "\e92a";
+  margin-left: -0.9638671875em;
+  color: rgb(255, 255, 255);
+}
+.ipapa-iconbuild:before {
+  content: "\e92b";
+}
+.ipapa-iconbuilding:before {
+  content: "\e92c";
+}
+.ipapa-iconcustomer:before {
+  content: "\e92d";
+}
+.ipapa-icondemolish:before {
+  content: "\e92e";
+}
+.ipapa-icondesign:before {
+  content: "\e92f";
+}
+.ipapa-icondollar:before {
+  content: "\e930";
+}
+.ipapa-iconeye:before {
+  content: "\e931";
+}
+.ipapa-iconfitting-out:before {
+  content: "\e932";
+}
+.ipapa-iconfurniture:before {
+  content: "\1f570";
+}
+.ipapa-icongridview:before {
+  content: "\e934";
+}
+.ipapa-iconland:before {
+  content: "\e935";
+}
+.ipapa-iconlistview:before {
+  content: "\e936";
+}
+.ipapa-iconmoving:before {
+  content: "\e938";
+}
+.ipapa-iconoffice-count:before {
+  content: "\e939";
+}
+.ipapa-iconprice:before {
+  content: "\e93a";
+}
+.ipapa-iconright-arrow-light:before {
+  content: "\e93b";
+}
+.ipapa-iconruko:before {
+  content: "\e93c";
+}
+.ipapa-iconteam:before {
+  content: "\e93d";
+}
+
